@@ -1,0 +1,11 @@
+<ul id="notification-container">
+	<% @notifications.each do |n| %>
+		<li><%= n.content %></li>
+	<% end %>
+</ul>
+
+
+<form>
+	<label>Messge</label>
+  <input type="text" name="message">
+</form>
