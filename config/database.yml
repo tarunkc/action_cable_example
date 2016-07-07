@@ -23,5 +23,10 @@ test:
   database: action_cab_test
 
 production:
-  <<: *default
-  database: action_cab
+  adapter: postgresql
+  encoding: unicode
+  database: d7hoos6n5sress
+  username: nmfflamizqkaaf
+  password: STPTqZZp4_jv-ZajSRooK6aKo9
+  port: 5432
+  host: ec2-54-235-90-96.compute-1.amazonaws.com
