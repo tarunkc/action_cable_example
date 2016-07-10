@@ -6,4 +6,7 @@ test:
 
 production:
   adapter: redis
-  url: redis://pure-earth-28877.herokuapp.com:6379/1
+  url: redis://:notification123@pub-redis-17414.us-east-1-2.4.ec2.garantiadata.com:17414
+  port: 17414
+  password: notification123
+  inline: true
