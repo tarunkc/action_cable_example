@@ -10,3 +10,4 @@ production:
   port: 17414
   password: notification123
   inline: true
+  ssl: true
